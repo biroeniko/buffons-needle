@@ -23,6 +23,10 @@ Buffon(9.999, 10, 4, 10000)
 ```
 This line of code will run the algorithm where the length of the needle is 9.999, the distance between lines is 10, the number of lines is 4 and the number of needles is 10000.
 
+The script should run until π is estimated. The plotting should be turned off, it is just for demonstration purposes, and it is very expensive if you are interested in the value of π.
+Now, you should see the executable in the build file. If you run the executable, the application should look like this:
+![](https://github.com/biroeniko/buffons-needle/blob/master/img/buffon.png)
+
 ## Authors
 
 * **Biró Enikő** - [BiroEniko](https://github.com/biroeniko)

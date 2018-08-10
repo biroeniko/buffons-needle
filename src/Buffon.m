@@ -111,14 +111,14 @@ for i = 1:count
     ybuf(2,j) = y2;
     
     if j == step
-        title(sprintf('%d %f', i, mypi));
+        title(sprintf('#needles = %d, pi = %f', i, mypi));
         plot([x1,x2],[y1,y2]); axis equal;
         plot(xbuf,ybuf); axis equal; hold on;
         drawnow;
     end
     
     if floor(mypi*10000) == 31415
-        title(sprintf('%d %f', i, mypi));
+        title(sprintf('#needles = %d, pi = %f', i, mypi));
         plot(xbuf(:,1:j),ybuf(:,1:j)); axis equal; hold on;
         drawnow;
         break
